@@ -8,4 +8,18 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+
+    <style name="TitleStyle" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="color">@color/colorTitle</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="TextStyle" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <item name="color">@color/colorText</item>
+        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>
